@@ -7,7 +7,7 @@ DOMAIN-KEYWORD,Claude
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,oaipro.com
-DOMAIN-SUFFIX,lingyiwanwu.com
+#DOMAIN-SUFFIX,lingyiwanwu.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,chatgpt.com

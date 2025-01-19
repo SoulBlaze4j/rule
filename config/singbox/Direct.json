@@ -2,21 +2,9 @@
   "version": 1,
   "rules": [
     {
-      "domain": [
-      ]
-    },
-    {
       "domain_suffix": [
         "speedtest.im",
         "vip.xunlei.com"
-      ]
-    },
-    {
-      "domain_keyword": [
-      ]
-    },
-    {
-      "ip_cidr": [
       ]
     }
   ]

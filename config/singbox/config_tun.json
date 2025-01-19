@@ -105,7 +105,6 @@
         "auto_detect_interface": true,
         "final": "🐠 漏网之鱼",
     "rules": [
-      { "rule_set": "geosite-category-ads-all", "outbound": "block" },
       { "type": "logical", "mode": "or", "rules": [{ "port": 53 }, { "protocol": "dns" }], "outbound": "dns-out" },
       { "clash_mode": "direct", "outbound": "🎯 全球直连" },
       { "clash_mode": "global", "outbound": "GLOBAL" },
@@ -120,6 +119,7 @@
       { "rule_set": ["geoip-apple", "geosite-apple"], "outbound": "🍏 Apple" },
       { "rule_set": ["geoip-netflix", "geosite-netflix"], "outbound": "🎥 Netflix" },
       { "rule_set": ["geoip-telegram", "geosite-telegram"], "outbound": "📲 Telegram" },
+      { "rule_set": "geosite-category-ads-all", "outbound": "block" },
       { "rule_set": "geosite-geolocation-!cn", "outbound": "🚀 节点选择" },
       { "rule_set": ["geoip-cn", "geosite-cn"], "outbound": "🎯 全球直连" },
       { "rule_set": "soul-direct", "outbound": "🎯 全球直连" }

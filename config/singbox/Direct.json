@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+      ]
+    },
+    {
+      "domain_suffix": [
+        "speedtest.im",
+      ]
+    },
+    {
+      "domain_keyword": [
+      ]
+    },
+    {
+      "ip_cidr": [
+      ]
+    }
+  ]
+}
